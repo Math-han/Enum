@@ -136,5 +136,4 @@ class EnumMapper(BaseEstimator, TransformerMixin):
                     start_counter += 1
 
         return dict(zip(original_val, col_map_val))
-#test
-    
+
