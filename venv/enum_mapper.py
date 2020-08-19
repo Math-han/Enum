@@ -8,7 +8,7 @@ import logging
 
 class EnumMapper(BaseEstimator, TransformerMixin):
     '''
-    select effective columns and transform enum column  
+    select effective columns and transform enum column
     '''
 
     def __init__(self, maximum_enum_num):
@@ -136,5 +136,5 @@ class EnumMapper(BaseEstimator, TransformerMixin):
                     start_counter += 1
 
         return dict(zip(original_val, col_map_val))
-
+#test
     
