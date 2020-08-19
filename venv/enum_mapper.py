@@ -8,7 +8,7 @@ import logging
 
 class EnumMapper(BaseEstimator, TransformerMixin):
     '''
-    select effective columns and transform enum column
+    select effective columns and transform enum column  
     '''
 
     def __init__(self, maximum_enum_num):
